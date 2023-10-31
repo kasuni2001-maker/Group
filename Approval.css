@@ -1,0 +1,151 @@
+
+
+/* Sidebar CSS */
+.sidebar {
+height: 100%;
+width: 250px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgba(22, 84, 17, 1); /* project color */;
+padding-top: 20px;
+}
+.sidebar a {
+padding: 10px;
+text-decoration: none;
+font-size: 16px;
+color: white;
+display: flex;
+align-items: center;
+}
+.sidebar a:hover {
+background: linear-gradient(to right, #296E0A, #00FF00);
+color: white; /* Font color for the active item is white */
+border-radius: 10px; /* Adds rounded corners */
+margin: 5px;
+}
+
+/* Logo Container CSS */
+.logo-container {
+overflow: hidden; /* Clips the image to fit the rounded container */
+margin: 20px;
+padding: 10px;
+text-align: center;
+}
+.logo-container img {
+border-radius: 0px; /* Rounds the corners to create a circular shape */
+width: 100%; /* Make the image fill the container */
+height: 100%;
+}
+
+
+/* Bottom Section CSS */
+.bottom-section {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 250px;
+background: rgba(22, 84, 17, 1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+.bottom-section li {
+padding: 10px;
+color: white; /* Font color is set to white */
+font-size: 16px;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.bottom-section li i {
+margin-right: 10px;
+color: white; /* Icon color is set to white */
+}
+
+/* Style for the selected item in the bottom links */
+.bottom-section li.active {
+background: linear-gradient(to right, #296E0A, #00FF00);
+color: white; /* Font color for the active item is white */
+border-radius: 10px; /* Adds rounded corners */
+margin: 5px;
+}
+
+.logo-container {
+overflow: hidden; /* Clips the image to fit the rounded container */
+margin: 20px;
+}
+
+/* Header CSS */
+.page-header {
+background-color: #333;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon-container {
+display: flex;
+gap: 10px;
+}
+
+.icon {
+font-size: 20px;
+color: white;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Style the navigation bar links (tabs) */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the background color of the tabs on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.table-container {
+    display: flex;
+}
+
+.table2 {
+    display: flex;
+}
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+
+body {
+background-color: #cdffd2;
+margin-left: 250px; /* Adjust for the width of the sidebar */
+padding-left: 20px;
+padding-right: 10px;
+}
